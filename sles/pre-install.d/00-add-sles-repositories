@@ -9,3 +9,4 @@ set -o pipefail
 
 zypper addrepo http://download.suse.de/ibs/SUSE:/SLE-12-SP3:/GA/standard/ SLE-12-SP3
 zypper addrepo http://download.suse.de/ibs/SUSE:/SLE-12-SP3:/GA/images/repo/SLE-12-SP3-Server-POOL-x86_64-Media1/ SLE-12-SP3-Server-POOL
+zypper addrepo http://download.suse.de/ibs/SUSE:/SLE-12-SP3:/GA/images/repo/SLE-12-SP3-SDK-POOL-x86_64-Media1/ SLE-12-SP3-SDK-POOL
