@@ -1,0 +1,11 @@
+[Unit]
+Description=Zypper refresh
+After=network-online.target
+
+[Service]
+ExecStart=/usr/bin/zypper refresh
+Type=oneshot
+User=root
+
+[Install]
+WantedBy=multi-user.target
